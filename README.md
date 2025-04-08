@@ -10,6 +10,7 @@ npm install
 ```sh
 npm run dev
 ```
+Or view from https://bytei.github.io/trackdeep-test/
 
 ### Compile and Minify for Production
 
