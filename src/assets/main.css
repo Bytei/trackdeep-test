@@ -1,0 +1,31 @@
+@import './base.css';
+
+.controls {
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    z-index: 1000000;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.leaflet-control-pan {
+    max-width:  60px;
+
+    button {
+        width: 50%;
+        cursor: pointer;
+    }
+
+    :first-child, :last-child {
+        width: 100%;
+    }
+}
