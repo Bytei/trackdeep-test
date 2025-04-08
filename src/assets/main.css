@@ -17,6 +17,10 @@
     display: flex;
 }
 
+.ml-2 {
+    margin-left: 8px;
+}
+
 .leaflet-control-pan {
     max-width:  60px;
 
