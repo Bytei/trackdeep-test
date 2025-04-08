@@ -6,7 +6,6 @@ import * as L from 'leaflet';
 import * as turf from '@turf/turf'
 
 import 'leaflet-rotate';
-import 'leaflet-geometryutil'
 
 import {FlyingObjectLayer} from "@/flyingObjectLayer.js";
 import {MovingCircle} from "@/flyingObjects/circle.js";
